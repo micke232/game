@@ -1,0 +1,242 @@
+#map {
+    margin: 0 auto;
+    width: 1309px;
+    background-image: url(img/grass.png);
+    display: block;
+    
+}
+
+#console {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    background-color: rgba(181, 164, 26, 0.35);
+    border-radius: 50px;
+    
+}
+#end {
+    text-align: center;
+    font-family: impact;
+    position: fixed;
+    margin-left: 36%;
+    margin-top: 2%;
+    font-size: 60px;
+    width: 350px;
+    color: #c70c0c;
+    height: 200px;
+    text-shadow: 5px 5px solid rgba(0, 0, 0, 0.6);
+}
+#attributeDiv {
+    margin: 0 auto;
+    display: block;
+    width: 350px;
+    background-color: rgba(128, 60, 18, 0.67);
+    text-align: center;
+    font-family: arial;
+    border-radius: 50px;
+}
+
+#counter {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    background-color: rgba(128, 60, 18, 0.67);
+    text-align: center;
+    font-family: arial;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-image: url(img/hero.gif), url(img/grass.png);
+}
+
+.wall {
+    background-color: #cb6316;
+    background-image: url(img/walls.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.floor {
+    background-color: #388051;
+    background-image: url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.door {
+    background-color: #388051;
+    background-image: url(img/door.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.axe {
+    background-color: #388051;
+    background-image: url(img/axe.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.chest {
+    background-color: #388051;
+    background-image: url(img/chest.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.key {
+    background-color: #98c322;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.coin {
+    background-color: #388051;
+    background-image: url(img/coin.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.heart {
+    background-color: #388051;
+    background-image: url(img/hearts.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.keybig {
+    background-image: url(img/key.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.monster {
+    background-image: url(img/monsterOne.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.monsterDead {
+    background-image: url(img/blood.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.blob {
+    background-image: url(img/blob.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.blobDead {
+    background-image: url(img/blobDead.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.cat {
+    background-image: url(img/cats.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.catDead {
+    background-image: url(img/catSleep.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.tomte {
+    background-image: url(img/tomte_test.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.tomteDead {
+    background-image: url(img/blood.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.troll {
+    background-image: url(img/troll.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.trollDead {
+    background-image: url(img/blood.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.end {
+    background-image: url(img/finish.png), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.stuff {
+    margin: 0 auto;
+}
+
+.potion {
+    background-image: url(img/potion.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left; 
+}
+
+.potionLight {
+    background-image: url(img/potionLight.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left; 
+}
+
+.potionPink {
+    background-image: url(img/potionPink.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left; 
+}
+
+.potionBlack {
+    background-image: url(img/potionBlack.gif), url(img/grass.png);
+    width: 20px;
+    height: 20px;
+    float: left; 
+}
